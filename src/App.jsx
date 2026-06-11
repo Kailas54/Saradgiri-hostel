@@ -13,18 +13,17 @@ function App() {
           SARADGIRI<span>HOSTEL</span>
         </div>
         <div className="nav-links">
-          <a href="#" className="active">HOME</a>
-          <a href="#">ABOUT</a>
-          <a href="#">ROOMS</a>
-          <a href="#">FACILITIES</a>
-          <a href="#">RULES</a>
-          <a href="#">CONTACT</a>
+          <a href="#home" className="active">HOME</a>
+          <a href="#facilities">FACILITIES</a>
+          <a href="#menu">MENU</a>
+          <a href="#contact">CONTACT</a>
         </div>
-        <button className="register-btn">BOOK NOW ↗</button>
+        <a href="https://wa.me/918891115433" target="_blank" rel="noreferrer" className="register-btn" style={{ textDecoration: 'none' }}>BOOK NOW ↗</a>
       </nav>
 
       {/* ── HERO ── */}
       <section
+        id="home"
         className="hero"
         style={{
           backgroundImage: `url(${bgImage})`,
@@ -52,7 +51,7 @@ function App() {
 
           <div className="hero-cta-row">
             <span className="hero-cta-label">ADMISSIONS OPEN 2026 ↓</span>
-            <a href="#" className="hero-explore">EXPLORE ROOMS ↗</a>
+            <a href="https://wa.me/918891115433" target="_blank" rel="noreferrer" className="hero-explore">EXPLORE ROOMS ↗</a>
           </div>
         </div>
 
@@ -71,8 +70,8 @@ function App() {
             <span className="bottom-value">Since 2003</span>
           </div>
           <div className="hero-bottom-col">
-            <span className="bottom-label">FACILITIES</span>
-            <span className="bottom-value">Wi-Fi · Mess · Gym · Study Hall</span>
+              <span className="bottom-label">FACILITIES</span>
+              <span className="bottom-value">Wi-Fi · Mess · Security · Study Hall</span>
           </div>
         </div>
 
@@ -92,7 +91,7 @@ function App() {
       </section>
 
       {/* ── FACILITIES ── */}
-      <section className="facilities-section">
+      <section id="facilities" className="facilities-section">
         <div className="facilities-header">
           <div className="facilities-title-col">
             <h2 className="facilities-title">
@@ -132,15 +131,15 @@ function App() {
           {/* Card 2 */}
           <div className="facility-card">
             <div className="facility-image-wrapper">
-              <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=800&auto=format&fit=crop" alt="Gym" />
+              <img src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?q=80&w=800&auto=format&fit=crop" alt="Security" />
             </div>
             <div className="facility-icon">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="m6.5 6.5 11 11"></path><path d="m21 21-1-1"></path><path d="m3 3 1 1"></path><path d="m18 22 4-4"></path><path d="m2 6 4-4"></path><path d="m3 10 7-7"></path><path d="m14 21 7-7"></path></svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
             </div>
             <div className="facility-content">
-              <span className="facility-subtitle">STAY FIT & ACTIVE</span>
-              <h3 className="facility-name">GYMNASIUM</h3>
-              <p className="facility-text">A fully equipped fitness center available for students to maintain their physical health and well-being.</p>
+              <span className="facility-subtitle">SAFE & SECURE</span>
+              <h3 className="facility-name">24*7 SECURITY SYSTEM</h3>
+              <p className="facility-text">Round-the-clock CCTV surveillance and professional security personnel ensuring a safe environment.</p>
               
               <div className="facility-cta-wrapper">
                 <a href="#" className="facility-cta">EXPLORE TRACK <span></span></a>
@@ -178,7 +177,7 @@ function App() {
       </section>
 
       {/* ── MENU SECTION ── */}
-      <section className="menu-section">
+      <section id="menu" className="menu-section">
         <div className="menu-bg-image">
           <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=1200&auto=format&fit=crop" alt="Food background" />
           <div className="menu-bg-overlay"></div>
@@ -342,7 +341,7 @@ function App() {
       </section>
 
       {/* ── FOOTER ── */}
-      <footer className="footer-section">
+      <footer id="contact" className="footer-section">
         <div className="footer-content">
           <div className="footer-col">
             <h3 className="footer-logo">SARADGIRI<span>HOSTEL</span></h3>
