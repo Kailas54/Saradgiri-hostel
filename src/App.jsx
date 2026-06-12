@@ -10,7 +10,7 @@ function App() {
       {/* ── NAVBAR ── */}
       <nav className="navbar">
         <div className="logo">
-          SARADGIRI<span>HOSTEL</span>
+          SARADAGIRI<span>HOSTEL</span>
         </div>
         <div className="nav-links">
           <a href="#home" className="active">HOME</a>
@@ -38,7 +38,7 @@ function App() {
 
         {/* Giant title – bleeds off both edges like the reference */}
         <div className="hero-giant-title" aria-hidden="true">
-          SARADGIRI
+          SARADAGIRI
         </div>
 
         {/* Main body content – bottom-left like the reference */}
@@ -51,7 +51,7 @@ function App() {
 
           <div className="hero-cta-row">
             <span className="hero-cta-label">ADMISSIONS OPEN 2026 ↓</span>
-            <a href="https://wa.me/918891115433" target="_blank" rel="noreferrer" className="hero-explore">EXPLORE ROOMS ↗</a>
+            <a href="https://www.google.com/maps/search/Sivagiri+Mutt,+Varkala" target="_blank" rel="noreferrer" className="hero-explore">LOCATION ↗</a>
           </div>
         </div>
 
@@ -67,11 +67,11 @@ function App() {
           </div>
           <div className="hero-bottom-col">
             <span className="bottom-label">ESTABLISHED</span>
-            <span className="bottom-value">Since 2003</span>
+            <span className="bottom-value">Since 1987</span>
           </div>
           <div className="hero-bottom-col">
-              <span className="bottom-label">FACILITIES</span>
-              <span className="bottom-value">Wi-Fi · Mess · Security · Study Hall</span>
+            <span className="bottom-label">FACILITIES</span>
+            <span className="bottom-value">Wi-Fi · Mess · Security · Study Hall</span>
           </div>
         </div>
 
@@ -81,9 +81,9 @@ function App() {
         {/* Marquee – pinned to bottom of hero */}
         <div className="marquee-container">
           <div className="marquee-content">
-            SARADGIRI HOSTEL 2026&nbsp;•&nbsp;A HOME AWAY FROM HOME&nbsp;•&nbsp;
+            SARADAGIRI HOSTEL 2026&nbsp;•&nbsp;A HOME AWAY FROM HOME&nbsp;•&nbsp;
             VARKALA NEAR SIVAGIRI MUTT&nbsp;•&nbsp;
-            ADMISSIONS OPEN&nbsp;•&nbsp;SARADGIRI HOSTEL 2026&nbsp;•&nbsp;
+            ADMISSIONS OPEN&nbsp;•&nbsp;SARADAGIRI HOSTEL 2026&nbsp;•&nbsp;
             A HOME AWAY FROM HOME&nbsp;•&nbsp;VARKALA NEAR SIVAGIRI MUTT&nbsp;•&nbsp;
             ADMISSIONS OPEN&nbsp;•&nbsp;
           </div>
@@ -117,7 +117,7 @@ function App() {
               <span className="facility-subtitle">HYGIENIC & NUTRITIOUS</span>
               <h3 className="facility-name">DINING</h3>
               <p className="facility-text">A spacious mess providing healthy and delicious meals, ensuring students feel right at home.</p>
-              
+
               <div className="facility-cta-wrapper">
                 <a href="#" className="facility-cta">EXPLORE TRACK <span></span></a>
                 <button className="attending-btn">
@@ -140,7 +140,7 @@ function App() {
               <span className="facility-subtitle">SAFE & SECURE</span>
               <h3 className="facility-name">24*7 SECURITY SYSTEM</h3>
               <p className="facility-text">Round-the-clock CCTV surveillance and professional security personnel ensuring a safe environment.</p>
-              
+
               <div className="facility-cta-wrapper">
                 <a href="#" className="facility-cta">EXPLORE TRACK <span></span></a>
                 <button className="attending-btn">
@@ -163,7 +163,7 @@ function App() {
               <span className="facility-subtitle">FOCUSED LEARNING</span>
               <h3 className="facility-name">STUDY HALL</h3>
               <p className="facility-text">Quiet and well-lit study rooms with high-speed Wi-Fi, perfect for uninterrupted academic preparation.</p>
-              
+
               <div className="facility-cta-wrapper">
                 <a href="#" className="facility-cta">EXPLORE TRACK <span></span></a>
                 <button className="attending-btn active">
@@ -344,23 +344,23 @@ function App() {
       <footer id="contact" className="footer-section">
         <div className="footer-content">
           <div className="footer-col">
-            <h3 className="footer-logo">SARADGIRI<span>HOSTEL</span></h3>
+            <h3 className="footer-logo">SARADAGIRI<span>HOSTEL</span></h3>
             <p className="footer-desc">Managed by SNV Womens Association</p>
           </div>
-          
+
           <div className="footer-col">
             <h4 className="footer-title">LOCATION</h4>
-            <p className="footer-text">Varkala Near Sivagiri Mutt<br/>Kerala, India</p>
+            <p className="footer-text">Varkala Near Sivagiri Mutt<br />Kerala, India</p>
           </div>
 
           <div className="footer-col">
             <h4 className="footer-title">CONTACT</h4>
-            <p className="footer-text"><strong>Akhila Binesh (Warden):</strong> <br/>+91 88911 15433</p>
-            <p className="footer-text"><strong>Abha Shaju:</strong> <br/>+91 95446 08530</p>
+            <p className="footer-text"><strong>Akhila Binesh (Warden):</strong> <br />+91 88911 15433</p>
+            <p className="footer-text"><strong>Abha Shaju:</strong> <br />+91 95446 08530</p>
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; 2026 Saradgiri Hostel. All rights reserved.</p>
+          <p>&copy; 2026 Saradagiri Hostel. All rights reserved.</p>
         </div>
       </footer>
     </>
