@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://saradgiri-hostel.vercel.app/sitemap.xml

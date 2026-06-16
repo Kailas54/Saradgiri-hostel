@@ -18,7 +18,7 @@ function App() {
           <a href="#menu">MENU</a>
           <a href="#contact">CONTACT</a>
         </div>
-        <a href="https://wa.me/918891115433" target="_blank" rel="noreferrer" className="register-btn" style={{ textDecoration: 'none' }}>BOOK NOW ↗</a>
+        <a href="https://wa.me/918891115433" target="_blank" rel="noreferrer" className="register-btn" style={{ textDecoration: 'none' }} title="Book a room at Saradagiri Hostel via WhatsApp">BOOK NOW ↗</a>
       </nav>
 
       {/* ── HERO ── */}
@@ -37,6 +37,7 @@ function App() {
         <div className="hero-overlay" />
 
         {/* Giant title – bleeds off both edges like the reference */}
+        <h1 className="visually-hidden">Saradagiri Ladies Hostel Varkala Near Sivagiri Mutt</h1>
         <div className="hero-giant-title" aria-hidden="true">
           SARADAGIRI
         </div>
@@ -51,7 +52,7 @@ function App() {
 
           <div className="hero-cta-row">
             <span className="hero-cta-label">ADMISSIONS OPEN 2026 ↓</span>
-            <a href="https://www.google.com/maps/search/Sivagiri+Mutt,+Varkala" target="_blank" rel="noreferrer" className="hero-explore">LOCATION ↗</a>
+            <a href="https://www.google.com/maps/search/Sivagiri+Mutt,+Varkala" target="_blank" rel="noreferrer" className="hero-explore" title="View Saradagiri Hostel location on Google Maps">LOCATION ↗</a>
           </div>
         </div>
 
@@ -108,7 +109,7 @@ function App() {
           {/* Card 1 */}
           <div className="facility-card">
             <div className="facility-image-wrapper">
-              <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=800&auto=format&fit=crop" alt="Dining" />
+              <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=800&auto=format&fit=crop" alt="Nutritious and hygienic dining hall at Saradagiri Ladies Hostel" />
             </div>
             <div className="facility-icon">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"></path><path d="M7 2v20"></path><path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"></path></svg>
@@ -131,7 +132,7 @@ function App() {
           {/* Card 2 */}
           <div className="facility-card">
             <div className="facility-image-wrapper">
-              <img src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?q=80&w=800&auto=format&fit=crop" alt="Security" />
+              <img src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?q=80&w=800&auto=format&fit=crop" alt="24/7 secure environment at Saradagiri Hostel" />
             </div>
             <div className="facility-icon">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
@@ -154,7 +155,7 @@ function App() {
           {/* Card 3 */}
           <div className="facility-card">
             <div className="facility-image-wrapper">
-              <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=800&auto=format&fit=crop" alt="Study Hall" />
+              <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=800&auto=format&fit=crop" alt="Quiet study hall for focused learning at Saradagiri Hostel" />
             </div>
             <div className="facility-icon">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"></path></svg>
