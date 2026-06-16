@@ -119,13 +119,6 @@ function App() {
               <h3 className="facility-name">DINING</h3>
               <p className="facility-text">A spacious mess providing healthy and delicious meals, ensuring students feel right at home.</p>
 
-              <div className="facility-cta-wrapper">
-                <a href="#" className="facility-cta">EXPLORE TRACK <span></span></a>
-                <button className="attending-btn">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 8v4l3 3"></path></svg>
-                  I'm Attending
-                </button>
-              </div>
             </div>
           </div>
 
@@ -142,13 +135,6 @@ function App() {
               <h3 className="facility-name">24*7 SECURITY SYSTEM</h3>
               <p className="facility-text">Round-the-clock CCTV surveillance and professional security personnel ensuring a safe environment.</p>
 
-              <div className="facility-cta-wrapper">
-                <a href="#" className="facility-cta">EXPLORE TRACK <span></span></a>
-                <button className="attending-btn">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 8v4l3 3"></path></svg>
-                  I'm Attending
-                </button>
-              </div>
             </div>
           </div>
 
@@ -165,13 +151,22 @@ function App() {
               <h3 className="facility-name">STUDY HALL</h3>
               <p className="facility-text">Quiet and well-lit study rooms with high-speed Wi-Fi, perfect for uninterrupted academic preparation.</p>
 
-              <div className="facility-cta-wrapper">
-                <a href="#" className="facility-cta">EXPLORE TRACK <span></span></a>
-                <button className="attending-btn active">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 8v4l3 3"></path></svg>
-                  I'm Attending
-                </button>
-              </div>
+            </div>
+          </div>
+
+          {/* Card 4 */}
+          <div className="facility-card">
+            <div className="facility-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1522771731470-31fe68ff3730?q=80&w=800&auto=format&fit=crop" alt="Comfortable guest accommodation at Saradagiri Hostel" />
+            </div>
+            <div className="facility-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+            </div>
+            <div className="facility-content">
+              <span className="facility-subtitle">COMFORTABLE STAYS</span>
+              <h3 className="facility-name">GUEST ROOMS</h3>
+              <p className="facility-text">We offer comfortable and affordable short-term accommodation for guests and visiting parents, ensuring a pleasant experience.</p>
+
             </div>
           </div>
         </div>
